@@ -1,0 +1,44 @@
+-Design the complete website
+-Create pages
+    -Index (Home)
+        -website ordering
+    -community
+        -Feed
+            -promotions
+            -Admin Messages
+        -signin and sinup
+        -search
+    -settings
+        -Normal Setting
+            -Font size
+            -theme
+        -Account settings
+            -Ability for users to add new business and location
+            -Ability for user to add ordering function
+            -Ability to store business in storage
+            -Ability to add products
+            -Ability to add promotion calls or feeds
+            -Changing img and name email
+    -contact
+        -Phone, Email, other social
+        -website ordering
+-Create website statics
+    -Loader
+    -Navigation Bar (Search, community, about and contact, settings)
+        -Dark and Light theme
+    -Account (Sign In, Sign Out) For businesses
+        -sign Up
+            -Business name
+            -Phone Number
+            -email
+            -Business Img (Not important)
+        -Ability for users to add new business and location
+        -Ability for user to add ordering function
+        -Ability to store business in storage
+        -Ability to add products
+        -Ability to add promotion calls or feeds
+    -Search
+        -Ability to search for business
+        -Ability  to search for products
+        -Ability to search for businesses in locations 
+        -Ability to search for a product in an area or near users location
