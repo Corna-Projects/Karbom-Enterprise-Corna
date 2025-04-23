@@ -11,46 +11,68 @@ section{
 }
 /**Hero-Section**/
 .hero{
-    padding: 0px 0px 5px 70px;
+    padding: 0px 0px 5px 50px;
 }
 
 .hero .first{
+    position: relative;
+    z-index: 1;
+    margin-right: -150px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: start;
     flex-direction: column;
     height: 100%;
     flex: 1;
     gap: 20px;
-    padding: 30px;
+    padding: 100px 100px 0 30px;
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+      url('/assets/images/foods.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--white);
+}
+
+.hero .first .hero_head{
+    color: var(--white);
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .hero .first .hero_text{
     text-align: left;
 }
 
+.hero .first .hero_buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 .hero .first .btn, .hero .first .btn:nth-child(2):hover{
     width: 150px;
-    height: 50px;
+    height: auto;
     background: var(--blue-light);
     border-radius: 40px;
     cursor: pointer;
     transition: all .2s ease-in-out;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-    padding: 6px;
+    padding: 10px;
     color: var(--main-black);
+    border: 1px transparent #00000000;
 }
 
 .hero .first .btn:nth-child(2), .hero .first .btn:nth-child(1):hover{
-    border: 1px solid var(--main-black);
+    border: 1px solid var(--white);
     background: transparent;
-    padding: 6px;
-    color: var(--main-black);
-}
-
-.hero .first .btn:nth-child(1):hover{
-    color: var(--main-blue);
+    padding: 10px;
+    color: var(--white);
 }
 
 .hero .first .hero_icons{
@@ -70,6 +92,8 @@ section{
 }
 
 .hero .next{
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +103,8 @@ section{
     background: var(--main-blue);
     padding: 30px;
     width: 300px;
-    clip-path: polygon(100px 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(150px 0, 100% 0, 100% 100%, 0 100%);
+    padding: 100px 0 0 50px;
 }
 
 .hero .next .hero_head{
@@ -111,6 +136,11 @@ section{
     right: 0;
     border-left: none;
     border-top: none;
+}
+
+.hero .next .hero_text{
+    margin-top: 10px;
+    color: var(--black-dark);
 }
 
 /**services**/

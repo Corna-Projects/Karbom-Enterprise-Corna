@@ -1,4 +1,4 @@
-/* General Reset */
+/* General Settings */
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +23,7 @@ body {
     --blue-light: #81d8e7;
     --main-black: #444;
     --black-dark: #222;
+    --white: #eeeeee;
 }
   
 /* Loader Styles */
@@ -186,7 +187,6 @@ body {
     font-family: monospace;
     backdrop-filter: blur(3px);
     box-shadow: 0 0 5px rgba(0, 0, 0, .1 );
-
 }
 
 #search:hover, #search:active{
@@ -200,4 +200,3 @@ body {
     width: 13px;
     margin-right: 10px;
 }
-  
